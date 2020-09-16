@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/',
+  publicPath: '/i4website/',
   transpileDependencies: ['vuetify'],
   devServer: {
     historyApiFallback: {
