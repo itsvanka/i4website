@@ -8,5 +8,12 @@ Vue.config.productionTip = false
 new Vue({
   router,
   vuetify,
-  render: function (h) { return h(App) }
+  render: function (h) { return h(App) },
+  created () {
+    if (sessionStorage.redirect) {
+      const redirect = sessionStorage.redirect
+      delete sessionStorage.redirect
+      this.$router.push(redirect)
+    }
+  }
 }).$mount('#app')
