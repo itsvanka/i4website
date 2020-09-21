@@ -37,7 +37,7 @@ export default {
       items: [
         {
           href: `https://wilkelab.org/`,
-          name: `The Wilke Lab`,
+          name: `The Wilke Lab at UT Austin`,
           pic: "wilkelab.png"
         },
         {
